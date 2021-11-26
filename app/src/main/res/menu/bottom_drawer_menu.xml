@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="@string/home"
+            />
+        <item
+            android:id="@+id/wishlist"
+            android:title="@string/wishlist"
+            />
+
+        <item
+            android:id="@+id/recently"
+            android:title="@string/recently"
+            />
+
+        <item
+            android:id="@+id/account"
+            android:title="@string/account"
+            />
+
+         <item
+            android:id="@+id/cart"
+            android:title="@string/cart"
+            />
+
+    </group>
+
+
+</menu>

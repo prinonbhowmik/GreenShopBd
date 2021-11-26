@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e87169"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/categoryTxtLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1"
+                android:background="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:text="LOG IN"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:background="#fff" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Become a partner of our community!"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+
+        <EditText
+            android:id="@+id/emailEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Phone or Email"
+            android:padding="15dp"
+            android:textColor="#000"
+            android:textColorHint="#e87169" />
+
+        <EditText
+            android:id="@+id/passwordEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Password"
+            android:padding="15dp"
+            android:textColor="#000"
+            android:textColorHint="#e87169" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Remember Me"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/loginTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="15dp"
+            android:gravity="center_horizontal"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textColor="#e87169"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/forgotTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Forget your password?"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sliderCardView"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Top Category"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:layout_marginRight="5dp"
+                android:textSize="15sp"
+                tools:ignore="RtlCompat" />
+           <LinearLayout
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               >
+               <TextView
+                   android:id="@+id/signUp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/edittext_background"
+                   android:gravity="center_horizontal"
+                   android:text="SIGNUP"
+                   android:textAlignment="viewStart"
+                   android:textColor="#e87169"
+                   android:textSize="15sp"
+                   android:padding="15dp"
+                   android:layout_marginLeft="5dp"
+                   tools:ignore="RtlCompat" />
+           </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

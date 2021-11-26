@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GreenshopBD</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home">Home</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="recently">Recently</string>
+    <string name="account">Account</string>
+    <string name="cart">Cart</string>
+</resources>
